@@ -1,0 +1,1 @@
+mouse_locked = !mouse_locked;
