@@ -8,10 +8,13 @@
   "name":"obj_block",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Model",
+    "path":"folders/Objects/Model.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_model",
+    "path":"objects/obj_model/obj_model.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -29,7 +29,7 @@ if (instance_exists(obj_block)) {
 		for (var i = 0; i < image_number; i++) {
 			var _ldx = lengthdir_x(i, _camAng);
 			var _ldy = lengthdir_y(i, _camAng);
-			draw_sprite_ext(sprite_index, i, x + _ldx, y+_ldy, 1+_width, 1+_width, 0, _col, 1)
+			draw_sprite_ext(sprite_index, i, x + _ldx, y+_ldy, image_xscale+_width, image_yscale+_width, image_angle, _col, 1)
 		}
 		
 		
